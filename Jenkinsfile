@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         NODEJS_HOME = tool 'NodeJS'
-        ZAP_HOME = '/Users/daniilalekseev/Downloads/ZAP_2.14.0'
+        ZAP_HOME = './Users/daniilalekseev/Downloads/ZAP_2.14.0'
     }
 
     tools {
@@ -31,7 +31,7 @@ pipeline {
                 L: script {
                     def zap = zap(
                         failBuild: true,
-                        zapHome: './Users/daniilalekseev/Downloads/ZAP_2.14.0',
+                        env.ZAP_HOME,
                         port: 8080 
                     )
 
