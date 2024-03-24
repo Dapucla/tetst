@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://khuloodawad:PLch5cuO5T9Ybv22@cluster0.d7vm0qb.mongodb.net/TertiaryCarePISDB?retryWrites=true&w=majority",
+    "audioUrl":"https://storage.googleapis.com/aai-web-samples/5_common_sports_injuries.mp3"
+
+}
