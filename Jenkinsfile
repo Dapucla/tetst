@@ -30,7 +30,7 @@ pipeline {
                 L: script {
                     def zap = zap(
                         failBuild: true,
-                        zapHome: '/Users/daniilalekseev/Downloads/ZAP_2.14.0',
+                        zapHome: './Users/daniilalekseev/Downloads/ZAP_2.14.0',
                         port: 8080 
                     )
 
