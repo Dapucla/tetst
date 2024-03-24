@@ -4,7 +4,6 @@ pipeline {
     environment {
         NODEJS_HOME = tool 'NodeJS'
         ZAP_HOME = './Users/daniilalekseev/Downloads/ZAP_2.14.0'
-        ZAP_HOME = '/Users/daniilalekseev/Downloads/ZAP_2.14.0'
     }
 
     tools {
